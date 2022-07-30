@@ -1,14 +1,15 @@
 # Site settings
 
 title: Degrees of Delta
-email: info@degreesofdelta.com
 description: >- # this means to ignore newlines until "baseurl:"
   Small changes can lead to large differences in results.
 baseurl: ""
 url: "http://degreesofdelta.com"
 domain: degreesofdelta.com
-#twitter_username: jekyllrb
-github_username:  degreesofdelta
+author:
+  twitter_username: degreesofdelta
+  github_username:  degreesofdelta
+  email: info@degreesofdelta.com
 
 # Build settings
 plugins:

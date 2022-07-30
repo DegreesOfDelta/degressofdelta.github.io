@@ -6,7 +6,7 @@ exclude: 'yes'
 
   $(document).ready(function () {
     {% if site.disable_landing_page != true %}
-    $('a.g-button').click(function (e) {
+    $('a.button').click(function (e) {
       if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
       currentWidth = $('.panel-cover').width()
       if (currentWidth < 960) {
@@ -18,7 +18,7 @@ exclude: 'yes'
       }
     })
 
-    if (window.location.hash && window.location.hash == '#blog') {
+    if (window.location.hash && window.location.hash == '#site') {
       $('.panel-cover').addClass('panel-cover--collapsed')
     }
 
@@ -32,7 +32,7 @@ exclude: 'yes'
       $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
     })
 
-    $('.navigation-wrapper .g-button').click(function () {
+    $('.navigation-wrapper .site-button').click(function () {
       $('.navigation-wrapper').toggleClass('visible')
       $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
     })
