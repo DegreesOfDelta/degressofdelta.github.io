@@ -9,7 +9,7 @@ domain: degreesofdelta.com
 author:
   twitter_username: degreesofdelta
   github_username:  degreesofdelta
-  email: info@degreesofdelta.com
+#  email: info@degreesofdelta.com
 
 # Build settings
 plugins:
